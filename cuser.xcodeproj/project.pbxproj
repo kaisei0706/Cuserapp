@@ -3,11 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		505A422AFA0411B1174DAF5A /* Pods_cuser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D73154E21D8719EC8AE4B4B5 /* Pods_cuser.framework */; };
+		533EA95E6B2BC8ED1186B031 /* Pods_cuser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B29222ED739ACA73165E81D6 /* Pods_cuser.framework */; };
 		A31867022506359B004DFEF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31867012506359B004DFEF1 /* AppDelegate.swift */; };
 		A31867042506359B004DFEF1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31867032506359B004DFEF1 /* SceneDelegate.swift */; };
 		A31867092506359B004DFEF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A31867072506359B004DFEF1 /* Main.storyboard */; };
@@ -19,6 +19,7 @@
 		A318671C25063995004DFEF1 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A318671B25063995004DFEF1 /* SearchViewController.swift */; };
 		A318671E250639B9004DFEF1 /* FavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A318671D250639B9004DFEF1 /* FavViewController.swift */; };
 		A318672225064623004DFEF1 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A318672125064623004DFEF1 /* TabBarViewController.swift */; };
+		A397B26B25084EEA00308C64 /* GoogleService-Info-2.plist in Resources */ = {isa = PBXBuildFile; fileRef = A397B26A25084EE900308C64 /* GoogleService-Info-2.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,7 +37,8 @@
 		A318671B25063995004DFEF1 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		A318671D250639B9004DFEF1 /* FavViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavViewController.swift; sourceTree = "<group>"; };
 		A318672125064623004DFEF1 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
-		D73154E21D8719EC8AE4B4B5 /* Pods_cuser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cuser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A397B26A25084EE900308C64 /* GoogleService-Info-2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-2.plist"; sourceTree = "<group>"; };
+		B29222ED739ACA73165E81D6 /* Pods_cuser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cuser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F802A1775D8EE15B3203E36A /* Pods-cuser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cuser.debug.xcconfig"; path = "Target Support Files/Pods-cuser/Pods-cuser.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -45,28 +47,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				505A422AFA0411B1174DAF5A /* Pods_cuser.framework in Frameworks */,
+				533EA95E6B2BC8ED1186B031 /* Pods_cuser.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8249492610072F585C57E6B0 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D73154E21D8719EC8AE4B4B5 /* Pods_cuser.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		A31866F52506359B004DFEF1 = {
 			isa = PBXGroup;
 			children = (
 				A31867002506359B004DFEF1 /* cuser */,
 				A31866FF2506359B004DFEF1 /* Products */,
 				EC4DFE1558B6B026217AE0F6 /* Pods */,
-				8249492610072F585C57E6B0 /* Frameworks */,
+				B8E78DB9FAE7CC78CFB80152 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -93,8 +87,17 @@
 				A318670A2506359D004DFEF1 /* Assets.xcassets */,
 				A318670C2506359D004DFEF1 /* LaunchScreen.storyboard */,
 				A318670F2506359D004DFEF1 /* Info.plist */,
+				A397B26A25084EE900308C64 /* GoogleService-Info-2.plist */,
 			);
 			path = cuser;
+			sourceTree = "<group>";
+		};
+		B8E78DB9FAE7CC78CFB80152 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B29222ED739ACA73165E81D6 /* Pods_cuser.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		EC4DFE1558B6B026217AE0F6 /* Pods */ = {
@@ -117,6 +120,7 @@
 				A31866FA2506359B004DFEF1 /* Sources */,
 				A31866FB2506359B004DFEF1 /* Frameworks */,
 				A31866FC2506359B004DFEF1 /* Resources */,
+				7823F9C0AAB63522271307D5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -167,6 +171,7 @@
 			files = (
 				A318670E2506359D004DFEF1 /* LaunchScreen.storyboard in Resources */,
 				A318670B2506359D004DFEF1 /* Assets.xcassets in Resources */,
+				A397B26B25084EEA00308C64 /* GoogleService-Info-2.plist in Resources */,
 				A31867092506359B004DFEF1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -194,6 +199,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7823F9C0AAB63522271307D5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cuser/Pods-cuser-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cuser/Pods-cuser-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-cuser/Pods-cuser-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
