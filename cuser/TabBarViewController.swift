@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 class TabBarViewController: UITabBarController,UITabBarControllerDelegate {
 
@@ -21,6 +22,7 @@ class TabBarViewController: UITabBarController,UITabBarControllerDelegate {
 
         // Do any additional setup after loading the view.
     }
+    
     
     // タブバーのアイコンがタップされた時に呼ばれるdelegateメソッドを処理する。
     func tabBarController(_ tabBarController: UITabBarController, shouldSelect viewController: UIViewController) -> Bool {

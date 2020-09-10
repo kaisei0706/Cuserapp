@@ -1,23 +1,17 @@
 //
-//  MenuViewController.swift
+//  Const.swift
 //  cuser
 //
-//  Created by 岩田海靖 on 2020/09/07.
+//  Created by 岩田海靖 on 2020/09/10.
 //  Copyright © 2020 kaisei.iwata. All rights reserved.
 //
 
-import UIKit
+import Foundation
 
-class MenuViewController: UIViewController {
-    @IBAction func PostButton(_ sender: Any) {
-    }
-    
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
+struct Const {
+    static let ImagePath = "images"
+    static let PostPath = "posts"
+}
     
 
     /*
@@ -30,4 +24,4 @@ class MenuViewController: UIViewController {
     }
     */
 
-}
+
