@@ -62,7 +62,7 @@ class PostViewController: UIViewController, UIImagePickerControllerDelegate, UIN
                     if error != nil {
                         // 画像のアップロード失敗
                         print(error!)
-                        //SVProgressHUD.showError(withStatus: "画像のアップロードが失敗しました")
+                        SVProgressHUD.showError(withStatus: "画像のアップロードが失敗しました")
                         // 投稿処理をキャンセルし、先頭画面に戻る
                         UIApplication.shared.windows.first{ $0.isKeyWindow }?.rootViewController?.dismiss(animated: true, completion: nil)
                         return
@@ -80,7 +80,7 @@ class PostViewController: UIViewController, UIImagePickerControllerDelegate, UIN
                         ] as [String : Any]
                     postRef.setData(postDic)
                     // HUDで投稿完了を表示する
-                    //SVProgressHUD.showSuccess(withStatus: "投稿しました")
+                    SVProgressHUD.showSuccess(withStatus: "投稿しました")
                     // 投稿処理が完了したので先頭画面に戻る
                    UIApplication.shared.windows.first{ $0.isKeyWindow }?.rootViewController?.dismiss(animated: true, completion: nil)
                 }
